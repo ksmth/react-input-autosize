@@ -6,7 +6,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var React = (typeof window !== "undefined" ? window['React'] : typeof global !== "undefined" ? global['React'] : null);
 
-var sizerStyle = { position: 'absolute', top: 0, left: 0, visibility: 'hidden', height: 0, overflow: 'scroll', whiteSpace: 'pre' };
+var sizerStyle = { position: 'absolute', top: 0, left: 0, visibility: 'hidden', height: 0, overflow: 'auto', whiteSpace: 'pre' };
 
 var AutosizeInput = React.createClass({
 	displayName: 'AutosizeInput',
